@@ -4,12 +4,12 @@ var randomNumber2=Math.random();
 randomNumber2=Math.floor(randomNumber2*6)+1;
 
 var randomImage="dice"+randomNumber1+".png";
-var randomImageSource="images//"+randomImage;
+var randomImageSource=randomImage;
 var image1=document.querySelectorAll("img")[0];
 image1.setAttribute("src",randomImageSource);
 
 var randomImage1="dice"+randomNumber2+".png";
-var randomImageSource1="images//"+randomImage1;
+var randomImageSource1=randomImage1;
 var image2=document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImageSource1);
 // // left dice image
